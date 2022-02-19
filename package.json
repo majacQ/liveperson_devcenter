@@ -3,7 +3,7 @@
   "description": "developers-community",
   "version": "1.0.0",
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.21.4",
     "browser-sync": "^2.26.14",
     "gulp": "^4.0.2",
     "gulp-shell": "^0.7.1",
@@ -13,7 +13,7 @@
     "jquery-highlight": "^3.5.0",
     "lodash": "^4.17.21",
     "lodash.template": ">=4.5.0",
-    "object-path": ">=0.11.5",
+    "object-path": "^0.11.8",
     "socket.io": ">=2.4.0",
     "yargs-parser": ">=13.1.2"
   },
