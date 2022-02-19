@@ -1,6 +1,6 @@
 ## LivePerson Developer Center
 
-**As of August 2018, please open all Pull Requests DIRECTLY TO THE MASTER BRANCH ON THE PUBLIC VERSION OF THIS REPOSITORY. THERE IS NO MORE NEED FOR THE INTERNAL REPOSITORY**
+**As of August 2018, please open all Pull Requests DIRECTLY TO THE MAIN BRANCH ON THE PUBLIC VERSION OF THIS REPOSITORY. THERE IS NO MORE NEED FOR THE INTERNAL REPOSITORY**
 
 **This site is maintained by the Product Communications and Experience team. Please contact lmart@liveperson.com for issues, questions, and the such**.
 
@@ -17,7 +17,7 @@ This repository generates LivePerson's Developer Center, which can be found at h
 ### Updating the Documentation
 
 All pages on the site correspond to a Markdown file (.md) which can be found inside `pages/Documents`. 
-To update a file, please branch off of the `master` branch, edit the file in question and create a Pull Request **back to the master branch**. 
+To update a file, please branch from the `main` branch, edit the file in question and create a Pull Request to merge with the `main`branch. 
 There's no need for the old Development branch, so please don't create pull requests to it.
 
 ### Commiting Changes to Developer Center
@@ -37,7 +37,7 @@ File name rules:
 
 Folder name rules:
 1. They must be TitleCase
-2. All files in the folder, must include a reference in its header to its folder name. This will be in either the documentname, categoryname, or subfoldername ( depending on the location of the folder)
+2. All files in the folder, must include a reference in its header to its folder name. This will be in either the documentname, categoryname, or subfoldername (depending on the location of the folder)
 3. All special characters excluding periods, dashes, and & need to be removed from Foldername
 4. Periods are replaced with dashes.
 
