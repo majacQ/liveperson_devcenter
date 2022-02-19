@@ -16,19 +16,25 @@ indicator: messaging
 {: .important}
 Did you know that LivePerson has a Conversational AI forum for builders? Check it out [here](https://talkyard.livepersonai.com/)!
 
-{: .important}
-Just getting started? Complete the [Using Conversation Assist](tutorials-guides-using-conversation-assist-overview.html) tutorial.
+### Watch the video
+
+<div style="display: block; position: relative; max-width: 70%;margin:0 auto;"><div style="padding-top: 56.25%;"><iframe src="https://player.vimeo.com/video/677425411" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" style="width: 100%; height: 100%; position: absolute; top: 10px; bottom: 0px; right: 0px; left: 0px;"></iframe></div></div>
 
 ### What is Conversation Assist?
 Conversation Assist offers recommended bots and answers to your human agents inline in their conversations with consumers.
 
-<img width="800" src="img/agentassist/example2.gif">
+<img width="400" src="img/agentassist/example2.gif" align="left" style="margin: 0px 25px 0px 0px;">
 
-When your agents take advantage of these just-in-time recommendations, they become more efficient and save time. What's more, their conversational outcomes are improved and more consistent. Conversation Assist can even help to reduce the time to onboard new agents. 
+When your agents take advantage of these just-in-time recommendations, they become more efficient and save time. What's more, their conversational outcomes are improved and more consistent. Conversation Assist can even help to reduce the time to onboard new agents.
+
+You can set up bot and answer recommendations in just a few clicks.
 
 On the **Home** page of Conversation Assist, you'll find a dashboard of rich analytics, which you can use to continuously monitor and tune recommendation performance. Use this valuable data to understanding the impact that your solution is having on your agent operations.
 
 <img width="800" src="img/agentassist/dashboard.png">
+
+{: .important}
+Just getting started? Complete the [Using Conversation Assist](tutorials-guides-using-conversation-assist-overview.html) tutorial.
 
 ### Intent-based recommendations
 Within a messaging conversation, Conversation Assist recommends bots and answers based on the intent that’s detected in the consumer’s message. The recommendations are presented in real time, inline within the conversation.

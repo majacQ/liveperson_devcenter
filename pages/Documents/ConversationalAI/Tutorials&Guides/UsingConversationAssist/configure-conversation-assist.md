@@ -73,7 +73,7 @@ Updates to the Conversation Assist configuration can take up to 20 minutes to be
     It is important that this engagement is routing to the "Agent" skill that has been assigned to the human agent. As the Conversation Assist settings have been configured to recommend bots and answers to this particular skill, skipping this important step will result in recommendations not being sent.
 
 6. Click **Next**, and continue through the workflow, accepting the default values. When you’ve reached the last option, "Behavioral targeting library," click **Done** in the lower-right corner.
-7. Back on the "Conversation Assist Testing" page, confirm that the skill being routed to is "Agent." If so, select the orange **Publish** button in the upper-right corner. Once published, there will be a visible Running icon <img style="width:90px" src="img/agentassisttutorial/icon_running.png"> to the right of the engagement.
+7. Back on the "Conversation Assist Testing" page, confirm that the skill being routed to is "Agent." If so, select the orange **Publish** button in the upper-right corner. Once published, there will be a visible Running icon <img class="inlineimage" style="width:90px" src="img/agentassisttutorial/icon_running.png"> to the right of the engagement.
 
     <img class="fancyimage" style="width:800px" src="img/agentassisttutorial/engagement.png">
 

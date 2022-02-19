@@ -22,11 +22,12 @@ LivePerson’s Conversation Orchestrator offers brands tools to enable efficient
 
 Conversation Orchestrator, part of LivePerson’s Conversational AI, empowers brands to create highly personalized conversational experiences for their customers. Conversation Orchestrator provides the following key value to brands: 
 
-1. **Go handsfree with AI**: Centralized AI policy experience that evolves with your business, and allows you to use all information to make decisions using the Conversation Context Service.
-2. **Connect to an AI ecosystem**:  Use Next Actions APIs from an application or bot, or go faster with inbox predictions and models
-3. **Drive continuous improvements** using Conversation Orchestrator learning, that improves predictions and outcomes with more usage.
+1. **Humans in loop**: Accelerate human agents in the contact center with Recommended Actions
+2. **Go handsfree with AI**: Centralized AI policy experience that evolves with your business, and allows you to use all information to make decisions using the Conversation Context Service.
+3. **Connect to an AI ecosystem**:  Use Next Actions APIs from an application or bot, or go faster with inbox predictions and models
+4. **Drive continuous improvements** using Conversation Orchestrator learning, that improves predictions and outcomes with more usage.
 
-Conversation Orchestrator includes 3 capabilities that enable brands to achieve conversational commerce at scale: 
+Conversation Orchestrator is introducing several new capabilities that enable brands to achieve conversational commerce at scale: 
 
 * [Conversation Context Service](conversation-orchestrator-conversation-context-service-overview.html)
 * [Dynamic Routing](conversation-orchestrator-dynamic-routing-overview.html)
