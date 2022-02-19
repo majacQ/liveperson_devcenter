@@ -66,7 +66,7 @@ Powering bots with intelligent answers can increase containment: It helps to ens
 #### How the Knowledge AI search works
 
 * **The search phrase** - The Knowledge AI interaction always passes the consumer’s most recent message into the search as the search phrase.
-* **The search** - When performing the search, the search mode is always “Intents.” For information on search modes, see [here](knowledgeai-using-intents-with-kbs.html#search-modes).
+* **The search** - When performing the search, the search mode is always “Intents.” This cannot be changed. For information on this search mode, see [here](knowledgeai-using-intents-with-kbs.html#search-modes).
 * **The results** - The answers that are returned must meet or exceed the confidence score that you specify within the interaction’s configuration. This minimum threshold can be VERY GOOD, GOOD or FAIR PLUS.
 
 #### How the answers are rendered
@@ -135,7 +135,7 @@ With this layout:
 8. Configure rules that direct the conversation flow based on the search results; this is described below. If you’ve selected "No auto rendering" for the **Answer layout** setting, you’ll also need to add the interactions that display the answers.
 
 {: .important}
-You might be familiar with implementing a knowledge base search using an Integration interaction that itself uses a specified [Knowledge Base integration](conversation-builder-integrations-knowledge-base-integrations.html) to perform the search. That approach is still supported, but it is considered a legacy approach. The Knowledge AI interaction is a simpler alternative because it doesn’t need an associated Knowledge Base integration.
+You might be familiar with implementing a knowledge base search using an Integration interaction that itself uses a specified [KnowledgeAI integration](conversation-builder-integrations-knowledgeai-integrations.html) to perform the search. That approach is still supported, but it is considered a legacy approach. The Knowledge AI interaction is a simpler alternative because it doesn’t need an associated KnowledgeAI integration.
 
 #### No auto rendering: Using a custom answer layout
 
@@ -268,7 +268,7 @@ Some setup of your Conversational Cloud environment is required before using thi
     - **Validation Failure message**: Enter the message to send to the consumer if the upload fails because the consumer has attempted to upload a file of an invalid type. If you don't supply a message, the following message is sent, "The file type is invalid. Upload one of these types: {a}, {b}, {c}." To help to avoid validation failures, consider mentioning the acceptable file types in the File Upload message, as we've done in the image above.
     - **In progress message**: Enter the message to send to the consumer when the upload begins. The default value is, "Processing the file..."
 
-4. Immediately after the File Upload interaction, add an Integration interaction ( <img style="width:30px" src="img/ConvoBuilder/icon_integration.png"> ). In the interaction, select the File integration to invoke (Integration type = File).
+4. Immediately after the File Upload interaction, add an Integration interaction <img class="inlineimage" style="width:30px" src="img/ConvoBuilder/icon_integration.png">. In the Integration interaction, select the File integration to invoke (Integration type = File).
     
     <img style="width:600px" src="img/ConvoBuilder/integrations_fileUpload4.png">
 
@@ -346,7 +346,7 @@ Enabling the Conversation Context Service for your account is necessary because 
 
 #### Add a Dynamic Routing interaction
 
-1. Select the interaction just above where you want to perform the dynamic routing, and click <img style="width:30px" src="img/ConvoBuilder/icon_dynrouting.png"> (Dynamic Routing) on the interactions toolbar.
+1. Select the interaction just above where you want to perform the dynamic routing, and click <img class="inlineimage" style="width:30px" src="img/ConvoBuilder/icon_dynrouting.png"> (Dynamic Routing) on the interactions toolbar.
 
     <img class="fancyimage" style="width:600px" src="img/ConvoBuilder/integrations_dynrouting.png">
 
